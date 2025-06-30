@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Building Scalable APIs with Spring Boot",
+      "date": "2025-06-01",
+      "excerpt": "A deep dive into creating RESTful APIs using Spring Boot, with tips on performance optimization.",
+      "content": "<p>In this post, I explore how to build scalable RESTful APIs using Spring Boot. Topics include dependency injection, controller design, and optimizing database queries with JPA.</p><p>Key takeaways include using Spring Data JPA for efficient data access and implementing caching to improve performance.</p>"
+    },
+    {
+      "id": "2",
+      "title": "Automating CI/CD with GitHub Actions",
+      "date": "2025-05-15",
+      "excerpt": "How to set up a CI/CD pipeline for your Java projects using GitHub Actions.",
+      "content": "<p>This post covers setting up a CI/CD pipeline for Java projects using GitHub Actions. I walk through creating workflows for automated testing and deployment.</p><p>Highlights include configuring Maven builds and deploying to a cloud provider.</p>"
+    },
+    {
+      "id": "3",
+      "title": "[Your Blog Post Title]",
+      "date": "2025-04-10",
+      "excerpt": "[A short summary of your blog post, e.g., exploring a new tech or project.]",
+      "content": "<p>[Write your full blog post content here, e.g., a detailed explanation of a project or tech topic.]</p>"
+    }
+  ]
+}

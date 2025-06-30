@@ -2,24 +2,24 @@
   "posts": [
     {
       "id": "1",
-      "title": "Building Scalable APIs with Spring Boot",
-      "date": "2025-06-01",
-      "excerpt": "A deep dive into creating RESTful APIs using Spring Boot, with tips on performance optimization.",
-      "content": "<p>In this post, I explore how to build scalable RESTful APIs using Spring Boot. Topics include dependency injection, controller design, and optimizing database queries with JPA.</p><p>Key takeaways include using Spring Data JPA for efficient data access and implementing caching to improve performance.</p>"
+      "title": "Building a Tuition Reimbursement System with Spring Boot and Angular",
+      "date": "2025-06-15",
+      "excerpt": "How I developed a full-stack application to manage employee tuition reimbursement requests with role-based access and file uploads.",
+      "content": "<p>I built a Tuition Reimbursement Management System (TRMS) to streamline employee reimbursement requests, featuring role-based access for Employees, Managers, and Admins. Using Spring Boot for the backend, I implemented RESTful APIs with JPA for database interactions and integrated file uploads for supporting documents. The Angular frontend provides a responsive dashboard with role-specific views, such as request submission for Employees and approval workflows for Managers. I tackled CORS issues by configuring Spring Security to allow cross-origin requests from the frontend, ensuring seamless login and registration.</p><p>Key challenges included securing endpoints with JWT authentication and optimizing database queries for performance. The project is hosted at <a href='https://github.com/fponce21/trms'>github.com/fponce21/trms</a>.</p>"
     },
     {
       "id": "2",
-      "title": "Automating CI/CD with GitHub Actions",
-      "date": "2025-05-15",
-      "excerpt": "How to set up a CI/CD pipeline for your Java projects using GitHub Actions.",
-      "content": "<p>This post covers setting up a CI/CD pipeline for Java projects using GitHub Actions. I walk through creating workflows for automated testing and deployment.</p><p>Highlights include configuring Maven builds and deploying to a cloud provider.</p>"
+      "title": "Scaling Distributed Systems with a Task Scheduler",
+      "date": "2025-05-20",
+      "excerpt": "Designing a distributed task scheduler with Spring Boot and GitHub Actions for automated CI/CD pipelines.",
+      "content": "<p>My Distributed Task Scheduler project focuses on managing tasks across distributed nodes, built with Java and Spring Boot. I designed a scalable architecture using a message queue (RabbitMQ) to handle task distribution and integrated GitHub Actions for CI/CD automation. The system supports dynamic task scheduling and fault tolerance, with REST APIs for task creation and monitoring. Setting up the project in Eclipse involved configuring Spring Boot starters and Docker containers for deployment.</p><p>Lessons learned include optimizing queue performance and ensuring idempotency in task processing. The code is available at <a href='https://github.com/fponce21'>github.com/fponce21</a>.</p>"
     },
     {
       "id": "3",
-      "title": "[Your Blog Post Title]",
-      "date": "2025-04-10",
-      "excerpt": "[A short summary of your blog post, e.g., exploring a new tech or project.]",
-      "content": "<p>[Write your full blog post content here, e.g., a detailed explanation of a project or tech topic.]</p>"
+      "title": "Automating Data Pipelines with Python and Docker",
+      "date": "2025-04-30",
+      "excerpt": "Creating a data pipeline to extract, transform, and load business expenses using Python, Docker, and Azure.",
+      "content": "<p>I developed a data pipeline to pull expense data from the Ramp API, transform it, and load it into a SQL Server database, containerized with Docker for deployment on Azure Functions. Using Python with pandas for data transformation and pyodbc for database connectivity, I automated the ETL process. Security was a focus, addressing risks like SQL injection by using parameterized queries and keeping dependencies updated.</p><p>Challenges included handling API rate limits and ensuring data consistency. This project enhanced my understanding of containerized deployments and cloud integration.</p>"
     }
   ]
 }
